@@ -15,6 +15,11 @@
     padding: 0px 50px;
     margin: 0px auto;
 }
+.contianer-2{
+    max-width: 1400px;
+    padding: 0px 50px;
+    margin: 0px auto;
+}
 
 .list-style-none{
     list-style: none;
@@ -95,16 +100,41 @@
 .pb-140{
     padding-bottom: 140px;
 }
+.p-tb-80{
+    padding: 80px 0px 80px 0px;
+}
+.p-tb-80-84{
+        padding: 80px 0px 84px 0px;
+
+}
+.p-tb-60{
+    padding: 60px 0 60px 0;
+}
+.p-7-14{
+    padding: 7px 14px;
+}
 
 /* marign */
 .mt-15{
     margin-top: 15px !important;
 }
+.mt-22{
+    margin-top: 22px;
+}
+.mt-24{
+    margin-top: 24px;
+}
 .mt-28{
     margin-top: 28px;
 }
+.mt-31{
+    margin-top: 31px !important;
+}
 .mt-36{
-    margin-top: 36px;
+    margin-top: 36px !important;
+}
+.mt-40{
+    margin-top: 40px !important;
 }
 .mt-50{
     margin-top: 50px !important;
@@ -114,6 +144,9 @@
 }
 .m-lr-50{
     margin: 0px 50px 0px 50px;
+}
+.mr-37{
+    margin-right: 37px;
 }
 
 /* line height*/
@@ -126,6 +159,9 @@
 .line-h-144{
     line-height: 144.444%;
 }
+.line-h-150{
+    line-height: 150%;
+}
 .line-h-175{
     line-height: 175%;
 }
@@ -133,6 +169,9 @@
 /* gap */
 .g-5{
     gap: 5px;
+}
+.g-7{
+    gap: 7px;
 }
 .g-10{
     gap: 10px;
@@ -158,16 +197,31 @@
 
 /* max-width */
 .max-w-166{
-    max-width: 166px;
+    max-width: 166px !important;
 }
 .max-w-310{
     max-width: 310px;
+}
+.max-w-400{
+    max-width: 400px;
 }
 .max-w-480{
     max-width: 480px;
 }
 .max-w-511{
     max-width: 511px;
+}
+.max-w-568{
+    max-width: 568px;
+}
+.max-w-584{
+    max-width: 584px;
+}
+.max-w-591{
+    max-width: 591px;
+}
+.max-w-639{
+    max-width: 639px;
 }
 .max-w-770{
     max-width: 770px;
@@ -176,8 +230,15 @@
     max-width: 843.343px
 }
 
+.min-w-250{
+    min-width: 250px;
+}
+
 .w-50{
     width: 50%;
+}
+.w-309{
+    width: 309px;
 }
 
 .h-419{
@@ -199,4 +260,18 @@
 .div-border{
     height: 2px;
     background: linear-gradient(90deg, #FFA280 0%, #8FD9D9 100%);
+}
+.border-bottom-1-white{
+    border-bottom: 1px solid #D7D9DD;
+}
+.border-1-gray{
+    border: 1px solid #D9D9D9;
+}
+
+.email-placeholder::placeholder{
+    color: #D7D9DD;
+    line-height: 133%;
+}
+.email-plaxeholder:focus{
+    outline: none;
 }
