@@ -1,5 +1,6 @@
 :root{
     --fs-14: 14px;
+    --fs-18-to-14: 18px;
     --fs-18-to-16: 18px;
     --fs-20-to-14: 20px;
     --fs-24-to-16: 24px;
@@ -10,6 +11,9 @@
 }
 .fs-14{
     font-size: var(--fs-14);
+}
+.fs-18-to-14{
+    font-size: var(--fs-18-to-14);
 }
 .fs-18-to-16{
     font-size: var(--fs-18-to-16);
@@ -42,6 +46,7 @@
 }
 @media (max-width: 992px) {
     :root{
+        --fs-18-to-14: 16px;
         --fs-28-to-16: 22px;
         --fs-20-to-14: 16px;
         --fs-24-to-16: 20px;
@@ -52,6 +57,7 @@
 }
 @media (max-width: 768px) {
     :root{
+        --fs-18-to-14: 14px;
         --fs-28-to-16: 16px;
         --fs-24-to-16: 18px;
         --fs-36-to-24: 28px;
@@ -61,10 +67,12 @@
 }
 @media (max-width: 576px) {
     :root{
+        --fs-18-to-14: 14px;
         --fs-18-to-16: 16px;
         --fs-20-to-14: 14px;
         --fs-24-to-16: 16px;
         --fs-28-to-16: 16px;
+         --fs-36-to-24: 24px;
         --fs-48-to-24: 24px;
         --fs-70-to-32: 32px;
     }

@@ -28,17 +28,29 @@
     .md-g-13{
         gap: 13px;
     }
+    .md-g-16{
+        gap: 16px !important;
+    }
     .md-g-22{
         gap: 22px !important;
     }
 
+    .md-p-6-18{
+        padding: 6px 18px;
+    }
     .md-p-tb-60{
         padding: 60px 0px 60px 0px;
     }
     .md-pb-22{
         padding-bottom: 22px;
     }
+    .md-pb-60{
+        padding-bottom: 60px;
+    }
 
+    .md-mt-13{
+        margin-top: 13px !important;
+    }
     .md-mt-46{
         margin-top: 46px;
     }
@@ -51,6 +63,11 @@
     }
     .md-max-w-24{
         max-width: 24px;
+    }
+
+    .md-height-width{
+        width: 218px !important;
+        height: 400px !important;
     }
 
     .md-w-full{
