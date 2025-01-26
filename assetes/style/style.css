@@ -61,15 +61,15 @@
 
 /* hover */
 .transition-remo{
-    transition: all .7s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 .text-black-hvr:hover{
     color: black;
-    transition: all .7s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 .linear-50-hvr:hover{
     background: linear-gradient(90deg,#8FD9D9  0%,  #FFA280 100%);
-    transition: all .7s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 /* padding */
@@ -139,11 +139,17 @@
 .mt-50{
     margin-top: 50px !important;
 }
+.ml-56{
+    margin-left: 56px;
+}
 .mt-60{
     margin-top: 60px;
 }
 .m-lr-50{
     margin: 0px 50px 0px 50px;
+}
+.ml-113{
+    margin-left: 113px;
 }
 .mr-37{
     margin-right: 37px;
@@ -201,6 +207,9 @@
 }
 .max-w-310{
     max-width: 310px;
+}
+.max-w-374{
+    max-width: 374px;
 }
 .max-w-400{
     max-width: 400px;

@@ -7,6 +7,9 @@
         gap: 70px;
     }
 
+    .xl-m-0{
+        margin: 0;
+    }
     .xl-m-lr-30{
         margin: 0px 30px 0px 30px;
     }
@@ -16,6 +19,9 @@
 
     .xl-max-w-294{
         max-width: 294px;
+    }
+    .xl-max-w-340{
+        max-width: 340px;
     }
 }
 @media (max-width: 992px) {
@@ -67,6 +73,9 @@
     .md-p-tb-60-28{
         padding: 60px 0px 28px 0px;
     }
+    .md-p-tb-60-111{
+        padding: 60px 0px 111px 0px;
+    }
 
     .md-m-0{
         margin: 0;
@@ -117,6 +126,9 @@
 
     .sm-g-14{
         gap: 14px;
+    }
+    .sm-g-25{
+        gap: 25px;
     }
 
     /* pading */
