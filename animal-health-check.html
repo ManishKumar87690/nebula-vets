@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/assetes/style/style.css">
+    <link rel="stylesheet" href="/assetes/style/meadia.css">
+    <link rel="stylesheet" href="/assetes/style/commun.css">
+    <link rel="shortcut icon" href="/assetes/img/png/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <section class="bg-broun-494336 p-tb-11-18 sm-p-tb-24">
+        <div class="m-lr-50 xl-m-lr-30 md-m-lr-25 sm-m-lr-16">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="#">
+                    <img src="/assetes/img/svg/Logo (1).svg" alt="logo">
+                </a>
+                <ul class="m-0 p-0 list-style-none d-flex align-items-center g-66 xl-g-40 d-lg-flex d-none">
+                    <li class="ff-robot-mono">
+                        <a href="#"
+                            class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">SERVICES</a>
+                    </li>
+                    <li class="ff-robot-mono">
+                        <a href="#"
+                            class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">ABOUT
+                            US</a>
+                    </li>
+                    <li class="ff-robot-mono">
+                        <a href="#"
+                            class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">LOCATION</a>
+                    </li>
+                    <li class="ff-robot-mono">
+                        <a href="#"
+                            class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">CAREER</a>
+                    </li>
+                    <li class="ff-robot-mono">
+                        <a href="#"
+                            class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">PATIENT
+                            PORTAL</a>
+                    </li>
+                    <li class="p-tb-10">
+                        <a href="#"
+                            class="bg-linear-gra p-12-38 rounded-pill text-decoration-none text-broun-494336 fs-18-to-16 fw-medium ff-robot-mono text-uppercase linear-50-hvr transition-remo">BOOK
+                            NOW</a>
+                    </li>
+                </ul>
+
+                <!-- offcanvs -->
+                <div class="d-lg-none d-block mt-3">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="26" viewBox="0 0 48 26" fill="none">
+                            <path d="M0 21.75H48V25.375H0V21.75Z" fill="#D8DADC" />
+                            <path d="M0 0H48V3.625H0V0Z" fill="#D8DADC" />
+                            <path d="M0 10.875H48V14.5H0V10.875Z" fill="#D8DADC" />
+                        </svg>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <div>
+                                <a href="#">
+                                    <img src="/assetes/img/svg/Logo (1).svg" alt="logo">
+                                </a>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul
+                                class="m-0 p-0 list-style-none d-flex align-items-center g-66 xl-g-40 d-lg-none d-flex flex-column">
+                                <li class="ff-robot-mono">
+                                    <a href="#"
+                                        class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">SERVICES</a>
+                                </li>
+                                <li class="ff-robot-mono">
+                                    <a href="#"
+                                        class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">ABOUT
+                                        US</a>
+                                </li>
+                                <li class="ff-robot-mono">
+                                    <a href="#"
+                                        class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">LOCATION</a>
+                                </li>
+                                <li class="ff-robot-mono">
+                                    <a href="#"
+                                        class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">CAREER</a>
+                                </li>
+                                <li class="ff-robot-mono">
+                                    <a href="#"
+                                        class="ff-robot-mono fs-14 letter-spacing-1p4 text-uppercase text-decoration-none text-gray-D7D9DD transition-remo text-black-hvr">PATIENT
+                                        PORTAL</a>
+                                </li>
+                                <li class="p-tb-10">
+                                    <a href="#"
+                                        class="bg-linear-gra p-12-38 rounded-pill text-decoration-none text-broun-494336 fs-18-to-16 fw-medium ff-robot-mono text-uppercase linear-50-hvr transition-remo">BOOK
+                                        NOW</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- hero section-->
+    <section class="overflow-hidden">
+        <div class="bg-broun-494336 position-relative sm-pt-33">
+            <div class="contianer-self">
+                <div>
+                    <div class="d-flex flex-column justify-content-center h-504 sm-h-0">
+                        <h1 class="m-0 text-gray-D7D9DD ff-avantt fs-70-to-32 max-w-230">Veterinary Services</h1>
+                        <p class="m-0 fs-20-to-14 line-h-130 text-gray-D7D9DD mt-20 max-w-660 sm-max-w-296">At Nebula
+                            Vets, we take
+                            pride in
+                            offering an extensive range of services to meet the diverse needs of our patients. Our
+                            commitment to comprehensive care ensures that we can provide the highest quality veterinary
+                            services under one roof.</p>
+                        <div class="p-tb-10 mt-40 mb--60">
+                            <a href="#"
+                                class="bg-linear-gra p-12-38 rounded-pill text-decoration-none text-broun-494336 fs-18-to-16 fw-medium ff-robot-mono text-uppercase linear-50-hvr transition-remo">BOOK
+                                NOW</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="max-w-639 position-absolute bottom-0 right-35 d-sm-block d-none">
+                            <img src="/assetes/img/png/our-mission-img.png" alt="img" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-sm-none d-block sm-mt-80">
+                <div class="max-w-362 m-auto">
+                    <img src="/assetes/img/png/Nebula__Cat+dog 1 (2).png" alt="img" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section animal img slider -->
+    <section>
+        <div class="bg-gray-D7D9DD80 p-tb-80 sm-p-tb-34 position-relative">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper d-flex g-20">
+                    <div class="swiper-slide m-auto d-flex justify-content-center">
+                        <div class="max-w-400 sm-max-w-296 d-flex justify-content-center">
+                            <img src="/assetes/img/png/dog-slider-img.png" alt="img" width="100%">
+                        </div>
+                    </div>
+                    <div class="swiper-slide m-auto d-flex justify-content-center">
+                        <div class="max-w-400 sm-max-w-296 d-flex justify-content-center">
+                            <img src="/assetes/img/png/dog-slider-img-2.png" alt="img" width="100%">
+                        </div>
+                    </div>
+                    <div class="swiper-slide m-auto d-flex justify-content-center">
+                        <div class="max-w-400 sm-max-w-296 d-flex justify-content-center">
+                            <img src="/assetes/img/png/dog-slider-img.png" alt="img" width="100%">
+                        </div>
+                    </div>
+                    <div class="swiper-slide m-auto d-flex justify-content-center">
+                        <div class="max-w-400 sm-max-w-296 d-flex justify-content-center">
+                            <img src="/assetes/img/png/dog-slider-img-2.png" alt="img" width="100%">
+                        </div>
+                    </div>
+                    <div class="swiper-slide m-auto d-flex justify-content-center">
+                        <div class="max-w-400 sm-max-w-296 d-flex justify-content-center">
+                            <img src="/assetes/img/png/dog-slider-img.png" alt="img" width="100%">
+                        </div>
+                    </div>
+                    <div class="swiper-slide m-auto">
+                        <div class="max-w-400 sm-max-w-296">
+                            <img src="/assetes/img/png/dog-slider-img-2.png" alt="img" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- links section -->
+    <section>
+        <div class="bg-broun-494336 p-tb-80 sm-p-tb-45">
+            <div class="contianer-2">
+                <div class="d-flex flex-sm-row flex-column justify-content-sm-center g-98 xxl-g-40 xl-g-20 flex-wrap">
+                    <div>
+                        <a href="#"
+                            class="text-gray-D7D9DD ff-avantt fs-36-to-24 text-decoration-none opacity-half opacity-full-hvr transition-remo">Preventive
+                            Care</a>
+                    </div>
+                    <div>
+                        <a href="#"
+                            class="text-gray-D7D9DD ff-avantt fs-36-to-24 text-decoration-none opacity-half opacity-full-hvr transition-remo">Sick
+                            Patient
+                            Care</a>
+                    </div>
+                    <div>
+                        <a href="#"
+                            class="text-gray-D7D9DD ff-avantt fs-36-to-24 text-decoration-none opacity-half opacity-full-hvr transition-remo">Surgery</a>
+                    </div>
+                    <div>
+                        <a href="#"
+                            class="text-gray-D7D9DD ff-avantt fs-36-to-24 text-decoration-none opacity-half opacity-full-hvr transition-remo">Additional
+                            Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- preventive care -->
+    <section>
+        <div>
+            <div class="d-flex justify-content-between flex-md-row flex-column">
+                <div class="contianer-3">
+                    <div class="p-tb-80 md-p-tb-120-0">
+                        <div class="max-w-374 ml--30 md-mb--30 sm-max-w-218">
+                            <img src="/assetes/img/png/location-icon-img.png" alt="img" width="100%">
+                        </div>
+                        <div>
+                            <h2 class="m-0 text-broun-494336 ff-avantt fs-48-to-24">Preventive Care</h2>
+                            <p class="m-0 ff-robot-mono fs-24-to-16 text-broun-494336 line-h-150 max-w-518 mt-15">Your
+                                pet's
+                                well-being at
+                                the
+                                forefront of our practice.
+                            </p>
+                            <p class="m-0 ff-avantt fs-20-to-14 line-h-130 max-w-480 mt-31 md-mt-40">At Nebula
+                                Vets, we
+                                take a
+                                proactive
+                                approach to
+                                your pet's
+                                healthcare,
+                                prioritizing their
+                                well-being and aiming to
+                                maximize their quality of life. We believe in the importance of preventive medicine and
+                                early detection of potential
+                                health issues. By implementing regular wellness check-ups and comprehensive screenings,
+                                we
+                                can identify and address any
+                                problems at their earliest stages.</p>
+                            <div class="p-tb-10 mt-40 mb--60 d-md-block d-none">
+                                <a href="#"
+                                    class="bg-linear-gra p-12-38 rounded-pill text-decoration-none text-broun-494336 fs-18-to-16 fw-medium ff-robot-mono text-uppercase linear-50-hvr transition-remo">BOOK
+                                    NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-820 bg-gray-D7D9DD80 p-tb-80 md-p-tb-60 pl-115 lg-pl-50 md-pl-32 md-mt-60">
+                    <div class="max-w-660 contianer-3 ps-0 d-flex flex-column g-32">
+                        <div class="pb-60 md-pb-54 border-bottom-1-black">
+                            <h1 class="m-0 ff-robot-mono fs-28-to-16">Animal Health Check</h1>
+                            <p class="m-0 ff-avantt fs-20-to-14 line-h-130 mt-40">Our practice offers the convenience of
+                                same
+                                or
+                                next-day
+                                appointments to
+                                ensure
+                                your furry
+                                companion receives prompt
+                                diagnostic evaluation and treatment. Our dedicated team prioritizes swift action,
+                                allowing
+                                us to quickly identify the
+                                issue at hand and provide the necessary care your pet requires.</p>
+                            <div class="p-tb-10 mt-40">
+                                <a href="#"
+                                    class="bg-linear-gra p-12-27 rounded-pill text-decoration-none text-broun-494336 fs-18-to-16 fw-medium ff-robot-mono text-uppercase linear-50-hvr transition-remo md-p-6-18">LEARN
+                                    MORE</a>
+                            </div>
+                        </div>
+                        <div class="pb-60 md-pb-54 border-bottom-1-black">
+                            <h1 class="m-0 ff-robot-mono fs-28-to-16">Animal Health Check</h1>
+                            <p class="m-0 ff-avantt fs-20-to-14 line-h-130 mt-40">Our practice offers the convenience of
+                                same
+                                or
+                                next-day
+                                appointments to
+                                ensure
+                                your furry
+                                companion receives prompt
+                                diagnostic evaluation and treatment. Our dedicated team prioritizes swift action,
+                                allowing
+                                us to quickly identify the
+                                issue at hand and provide the necessary care your pet requires.</p>
+                            <div class="p-tb-10 mt-40">
+                                <a href="#"
+                                    class="bg-linear-gra p-12-27 rounded-pill text-decoration-none text-broun-494336 fs-18-to-16 fw-medium ff-robot-mono text-uppercase linear-50-hvr transition-remo md-p-6-18">LEARN
+                                    MORE</a>
+                            </div>
+                        </div>
+                        <div class="pb-60 md-pb-54 border-bottom-1-black">
+                            <h1 class="m-0 ff-robot-mono fs-28-to-16">Animal Health Check</h1>
+                            <p class="m-0 ff-avantt fs-20-to-14 line-h-130 mt-40">Our practice offers the convenience of
+                                same
+                                or
+                                next-day
+                                appointments to
+                                ensure
+                                your furry
+                                companion receives prompt
+                                diagnostic evaluation and treatment. Our dedicated team prioritizes swift action,
+                                allowing
+                                us to quickly identify the
+                                issue at hand and provide the necessary care your pet requires.</p>
+                            <div class="p-tb-10 mt-40">
+                                <a href="#"
+                                    class="bg-linear-gra p-12-27 rounded-pill text-decoration-none text-broun-494336 fs-18-to-16 fw-medium ff-robot-mono text-uppercase linear-50-hvr transition-remo md-p-6-18">LEARN
+                                    MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        slidesPerView: 4,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            575: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+            1024: {
+                slidesPerView: 4,
+            },
+            1800: {
+                slidesPerView: 6,
+            },
+        },
+    });
+</script>
+
+</html>

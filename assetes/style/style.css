@@ -20,6 +20,11 @@
     padding: 0px 50px;
     margin: 0px auto;
 }
+.contianer-3{
+     max-width: 1400px;
+    padding: 0px 32px;
+    margin: 0px auto;
+}
 
 .list-style-none{
     list-style: none;
@@ -39,9 +44,8 @@
 }
 
 /* bg color */
-.bg-linear-gra{
-    /* border-radius: 27.917px; */
-    background: var(--Gradient-02, linear-gradient(90deg, #FFA280 0%, #8FD9D9 100%));
+.bg-linear-gra, .swiper-pagination span{
+    background: var(--Gradient-02, linear-gradient(90deg, #FFA280 0%, #8FD9D9 100%)) !important;
 }
 .bg-broun-494336{
     background: #494336;
@@ -70,6 +74,14 @@
 .linear-50-hvr:hover{
     background: linear-gradient(90deg,#8FD9D9  0%,  #FFA280 100%);
     transition: all .5s ease-in-out;
+}
+.svg-hvr:hover{
+    transform: translateY(-3px);
+    transition: all .5s ease-in-out;
+}
+.opacity-full-hvr:hover{
+    opacity: 1;
+    transition: all .5s;
 }
 
 /* padding */
@@ -113,13 +125,25 @@
 .p-7-14{
     padding: 7px 14px;
 }
+.p-tb-140-80{
+    padding: 140px 0px 80px 0px;
+}
+.pl-115{
+    padding-left: 115px;
+}
 
 /* marign */
+.m-auto{
+    margin: auto;
+}
 .mt-15{
     margin-top: 15px !important;
 }
+.mt-20{
+    margin-top: 20px !important;
+}
 .mt-22{
-    margin-top: 22px;
+    margin-top: 22px !important;
 }
 .mt-24{
     margin-top: 24px;
@@ -153,6 +177,15 @@
 }
 .mr-37{
     margin-right: 37px;
+}
+.ml--30{
+    margin-left: -30px;
+}
+.mb--60{
+    margin-bottom: -60px;
+}
+.pb-60{
+    padding-bottom: 60px;
 }
 
 /* line height*/
@@ -197,6 +230,9 @@
 .g-66{
     gap: 66px;
 }
+.g-98{
+    gap: 98px;
+}
 .g-118{
     gap: 118px;
 }
@@ -207,6 +243,9 @@
 }
 .max-w-310{
     max-width: 310px;
+}
+.max-w-362{
+    max-width: 362px;
 }
 .max-w-374{
     max-width: 374px;
@@ -226,14 +265,23 @@
 .max-w-584{
     max-width: 584px;
 }
+.max-w-518{
+    max-width: 518px;
+}
 .max-w-591{
     max-width: 591px;
 }
 .max-w-639{
     max-width: 639px;
 }
+.max-w-660{
+    max-width: 660px;
+}
 .max-w-770{
     max-width: 770px;
+}
+.max-w-820{
+    max-width: 820px;
 }
 .max-w-843{
     max-width: 843.343px
@@ -253,10 +301,16 @@
 .h-419{
     height: 419px;
 }
+.h-504{
+    height: 504px;
+}
 
 /* postion */
 .right-0{
     right: 0px;
+}
+.right-35{
+    right: -35px;
 }
 .top-23{
     top: 23px;
@@ -273,6 +327,9 @@
 .border-bottom-1-white{
     border-bottom: 1px solid #D7D9DD;
 }
+.border-bottom-1-black{
+    border-bottom: 1px solid #000;
+}
 .border-1-gray{
     border: 1px solid #D9D9D9;
 }
@@ -283,4 +340,8 @@
 }
 .email-plaxeholder:focus{
     outline: none;
+}
+
+.opacity-half{
+    opacity: .5;
 }
