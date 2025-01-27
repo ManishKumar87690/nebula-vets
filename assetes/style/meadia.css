@@ -128,7 +128,7 @@
     }
 
     .md-max-w-none{
-        max-width: none;
+        max-width: none !important;
     }
     .md-max-w-24{
         max-width: 24px;
