@@ -184,6 +184,9 @@
     .md-pb-54{
         padding-bottom: 54px;
     }
+    .sm-p-tb-60-120{
+        padding: 60px 0px 120px 0px;
+    }
 
     /* margin */
     .sm-m-0{
@@ -231,6 +234,10 @@
 
     .sm-border-none{
         border: none;
+    }
+
+    .sm-top-0{
+        top: 0;
     }
 }
 @media (max-width: 360px) {
