@@ -187,6 +187,9 @@
     .sm-p-tb-60-120{
         padding: 60px 0px 120px 0px;
     }
+    .sm-p-29-17-70-10{
+        padding: 29px 17px 70px 10px;
+    }
 
     /* margin */
     .sm-m-0{
@@ -201,6 +204,9 @@
     .sm-mt-17{
         margin-top: 17px;
     }
+    .sm-mt-24{
+        margin-top: 24px;
+    }
     .sm-mt-45{
         margin-top: 45px;
     }
@@ -214,6 +220,9 @@
     /* max-w */
     .sm-max-w-37{
         max-width: 37px;
+    }
+    .sm-max-w-46{
+        max-width: 476px;
     }
     .sm-max-w-218{
         max-width: 218px;
