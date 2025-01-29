@@ -36,6 +36,9 @@
 .fs-70-to-32{
     font-size: var(--fs-70-to-32);
 }
+.fs-138{
+    font-size: 138px;
+}
 
 @media (max-width: 1200px) {
     :root{

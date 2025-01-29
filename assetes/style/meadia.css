@@ -190,6 +190,15 @@
     .sm-p-29-17-70-10{
         padding: 29px 17px 70px 10px;
     }
+    .sm-p-22{
+        padding: 22px;
+    }
+    .sm-pt-54{
+        padding-top: 54px;
+    }
+    .sm-p-29-30-24-10{
+        padding: 29px 30px 24px 10px;
+    }
 
     /* margin */
     .sm-m-0{
@@ -215,6 +224,9 @@
     }
     .sm-m-lr-16{
         margin: 0px 32px 0px 32px;
+    }
+    .sm-mt-54{
+        margin-top: 54px;
     }
     
     /* max-w */
