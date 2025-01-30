@@ -78,11 +78,12 @@
         --fs-28-to-16: 16px;
          --fs-36-to-24: 24px;
         --fs-48-to-24: 24px;
-        --fs-70-to-32: 32px;
+        --fs-70-to-32: 30px;
     }
 }
 @media (max-width: 360px) {
     :root{
         --fs-18-to-16: 16px;
+        --fs-70-to-32: 24px;
     }
 }

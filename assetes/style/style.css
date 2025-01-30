@@ -123,7 +123,6 @@
 }
 .p-tb-80-84{
         padding: 80px 0px 84px 0px;
-
 }
 .p-tb-60{
     padding: 60px 0 60px 0;
@@ -154,6 +153,9 @@
 }
 .p-44-40-24-40{
     padding: 44px 40px 24px 40px;
+}
+.pt-60{
+    padding-top: 60px;
 }
 
 
@@ -211,6 +213,9 @@
 }
 .mr-37{
     margin-right: 37px;
+}
+.mr--157{
+    margin-right: -157px;
 }
 .ml--30{
     margin-left: -30px;
@@ -287,6 +292,9 @@
 .max-w-200{
     max-width: 200px;
 }
+.max-w-207{
+    max-width: 207px;
+}
 .max-w-275{
     max-width: 275px;
 }
@@ -331,6 +339,9 @@
 }
 .max-w-660{
     max-width: 660px;
+}
+.max-w-700{
+    max-width: 700px;
 }
 .max-w-770{
     max-width: 770px;
