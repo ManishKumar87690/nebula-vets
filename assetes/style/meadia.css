@@ -283,6 +283,12 @@
     .sm-h-0{
         height: max-content;
     }
+    .sm-h-350{
+        height: 350px;
+    }
+    .sm-h-440{
+        height: 440px;
+    }
 
     .sm-border-none{
         border: none;

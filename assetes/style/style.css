@@ -65,7 +65,6 @@
     background-size: cover;
 }
 
-
 /* hover */
 .transition-remo{
     transition: all .5s ease-in-out;
@@ -75,7 +74,7 @@
     transition: all .5s ease-in-out;
 }
 .linear-50-hvr:hover{
-    background: linear-gradient(90deg,#8FD9D9  0%,  #FFA280 100%);
+    background: linear-gradient(90deg,#8FD9D9  0%,  #FFA280 100%) !important;
     transition: all .5s ease-in-out;
 }
 .svg-hvr:hover{
@@ -158,10 +157,12 @@
     padding-top: 60px;
 }
 
-
 /* marign */
 .m-auto{
     margin: auto;
+}
+.mt--2{
+    margin-top: -2px;
 }
 .mt-15{
     margin-top: 15px !important;
@@ -228,6 +229,9 @@
 }
 .pb-60{
     padding-bottom: 60px;
+}
+.pb-90{
+    padding-bottom: 90px;
 }
 
 /* line height*/
@@ -367,6 +371,9 @@
 .h-419{
     height: 419px;
 }
+.h-431{
+    height: 431px;
+}
 .h-440{
     height: 440px;
 }
@@ -405,6 +412,9 @@
 .bottom-75{
     bottom: 75px;
 }
+.bottom-100{
+    bottom: 100px !important;
+}
 .bottom-120{
     bottom: 120px;
 }
@@ -412,7 +422,6 @@
 .z-index--99{
     z-index: -99;
 }
-
 
 /* border */
 .div-border{
