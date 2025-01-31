@@ -456,3 +456,4 @@ background-clip: text;
 .opacity-half{
     opacity: .5;
 }
+.accordion-button:not(.collapsed){  color: #D9D9D9 !important;}
