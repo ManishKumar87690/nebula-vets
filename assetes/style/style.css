@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @font-face {
     font-family: "avantt";
-    src: url("/assetes/font/AVGARDN_2.TTF");
+    src: url("..//font/avantt-font-family-1738275332-0/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
 }
 .ff-avantt{
     font-family: "avantt";
@@ -43,7 +43,10 @@
     color: #494336;
 }
 .text-linear-gradiant{
-    color: #FFA280;
+    background: linear-gradient(180deg, #FFA280 0%, #8FD9CB 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 /* bg color */
@@ -384,7 +387,7 @@
     height: 584px;
 }
 
-/* postion */
+/* position */
 .right-0{
     right: 0px;
 }
