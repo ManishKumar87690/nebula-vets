@@ -129,7 +129,7 @@
                             services under one roof.</p>
                         <div class="p-tb-10 mt-40 mb--60">
                             <a href="#"
-                                class="bg-linear-gra p-12-38 rounded-pill text-decoration-none text-broun-494336 fs-18-to-16 fw-medium ff-robot-mono text-uppercase linear-50-hvr transition-remo">BOOK
+                                class="bg-linear-gra p-12-38 md-p-6-18 rounded-pill text-decoration-none text-broun-494336 fs-18-to-16 fw-medium ff-robot-mono text-uppercase linear-50-hvr transition-remo">BOOK
                                 NOW</a>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
     <section>
         <div class="bg-gray-D7D9DD80 p-tb-80 sm-p-tb-34 position-relative">
             <div class="swiper mySwiper">
-                <div class="swiper-wrapper d-flex g-20 sm-g-14">
+                <div class="swiper-wrapper">
                     <div class="swiper-slide d-flex justify-content-center">
                         <div class="sm-max-w-296">
                             <img src="./assetes/img/png/dog-slider-img.png" alt="img" width="100%">
@@ -689,8 +689,8 @@
 <script>
     var swiper = new Swiper(".mySwiper", {
         loop: true,
-        // autoplay: true,
         speed: 1550,
+        spaceBetween: 20,
         slidesPerView: 4,
         pagination: {
             el: ".swiper-pagination",
@@ -699,16 +699,19 @@
         breakpoints: {
             320: {
                 slidesPerView: 1,
-                spaceBetween: 10,
+                spaceBetween: 16,
             },
-            600: {
+            575: {
                 slidesPerView: 2,
+                spaceBetween: 20,
             },
             768: {
                 slidesPerView: 3,
+                spaceBetween: 20,
             },
             1100: {
                 slidesPerView: 4,
+                spaceBetween: 20,
             },
             1500: {
                 slidesPerView: 5,

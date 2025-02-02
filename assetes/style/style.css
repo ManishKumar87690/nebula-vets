@@ -507,6 +507,10 @@
     right: 0px;
 }
 
+.left-18 {
+    left: 18px !important;
+}
+
 .right-35 {
     right: -35px;
 }
@@ -525,6 +529,10 @@
 
 .top-23 {
     top: 23px;
+}
+
+.top-46 {
+    top: 46px;
 }
 
 .top-100 {
