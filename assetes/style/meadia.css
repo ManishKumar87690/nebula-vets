@@ -33,8 +33,15 @@
     .xl-max-w-340{
         max-width: 340px;
     }
+    .xl-max-w-410{
+        max-width: 410px;
+    }
     .xl-max-w-500{
         max-width: 500px;
+    }
+
+    .xl-top-20{
+        top: 20px;
     }
 }
 @media (max-width: 992px) {
@@ -63,8 +70,14 @@
     .lg-g-20{
         gap: 20px;
     }
+    .lg-max-w-280{
+        max-width: 280px;
+    }
     .lg-max-w-400{
         max-width: 380px;
+    }
+    .lg-max-w-500{
+        max-width: 500px !important;
     }
     .lg-max-w-none{
         max-width: none;
@@ -151,6 +164,9 @@
     }
     .md-max-w-24{
         max-width: 24px;
+    }
+    .md-max-w-300{
+        max-width: 300px;
     }
 
     .md-height-width{
