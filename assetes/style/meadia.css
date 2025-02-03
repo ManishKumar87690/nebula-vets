@@ -102,6 +102,10 @@
     .lg-max-w-none {
         max-width: none;
     }
+
+    .lg-bottom--30 {
+        bottom: -30px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -215,12 +219,24 @@
         height: 400px !important;
     }
 
+    .md-h-782 {
+        height: 875px;
+    }
+
+    .md-h-504 {
+        height: 505px;
+    }
+
     .md-w-full {
         width: 100% !important;
     }
 
     .md-bottom--13 {
         bottom: -13px !important;
+    }
+
+    .sm-top--138 {
+        top: -208px;
     }
 }
 
@@ -386,6 +402,10 @@
 
     .sm-top-0 {
         top: 0;
+    }
+
+    .sm-top--138 {
+        top: -138px;
     }
 }
 
