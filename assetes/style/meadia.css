@@ -407,6 +407,10 @@
     .sm-top--138 {
         top: -138px;
     }
+
+    .sm-bottom-54 {
+        bottom: 54px !important;
+    }
 }
 
 @media (max-width: 360px) {

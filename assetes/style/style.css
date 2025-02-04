@@ -579,6 +579,10 @@
     bottom: 20px;
 }
 
+.bottom-30 {
+    bottom: 30px !important;
+}
+
 .bottom-50 {
     bottom: 50px !important;
 }
@@ -652,15 +656,19 @@
 }
 
 .swiper-pagination-bullet-active {
-    background-color: red !important;
+    background-color: #494336 !important;
 }
 
 .swiper-pagination span {
     background-color: #494336 !important;
 }
 
-.join-nela-pasi .swiper-pagination span {
-    background: linear-gradient(90deg, #FFA280 0%, #8FD9D9 100%);
+.join-pasi span {
+    background-color: white !important;
+}
+
+.join-pasi .swiper-pagination-bullet-active {
+    background-color: linear-gradient(90deg, #FFA280 0%, #8FD9D9 100%) !important;
 }
 
 .active-page {

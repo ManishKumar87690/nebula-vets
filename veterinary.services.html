@@ -65,7 +65,7 @@
 
                     <div class="offcanvas offcanvas-end bg-broun-494336" tabindex="-1" id="offcanvasRight"
                         aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
+                        <div class="offcanvas-header p-4">
                             <div>
                                 <a href="./index.html">
                                     <img src="./assetes/img/svg/Logo (1).svg" alt="logo">
@@ -186,7 +186,7 @@
                 </div>
             </div>
             <div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination position-absolute bottom-30 sm-bottom-54 z-index-99"></div>
             </div>
         </div>
     </section>
@@ -711,6 +711,7 @@
     var swiper = new Swiper(".mySwiper", {
         loop: true,
         speed: 1550,
+        autoplay: true,
         spaceBetween: 20,
         slidesPerView: 4,
         pagination: {
