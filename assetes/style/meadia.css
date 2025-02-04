@@ -231,6 +231,10 @@
         width: 100% !important;
     }
 
+    .md-bottom-0 {
+        bottom: 0px !important;
+    }
+
     .md-bottom--13 {
         bottom: -13px !important;
     }
@@ -406,6 +410,10 @@
 
     .sm-top--138 {
         top: -138px;
+    }
+
+    .sm-bottom-20 {
+        bottom: 20px !important;
     }
 
     .sm-bottom-54 {
